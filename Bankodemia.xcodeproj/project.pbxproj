@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA729F5427C49B340044C026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729F5327C49B340044C026 /* AppDelegate.swift */; };
 		FA729F5627C49B340044C026 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729F5527C49B340044C026 /* SceneDelegate.swift */; };
-		FA729F5827C49B340044C026 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729F5727C49B340044C026 /* ViewController.swift */; };
+		FA729F5827C49B340044C026 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729F5727C49B340044C026 /* LoginViewController.swift */; };
 		FA729F5D27C49B370044C026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA729F5C27C49B370044C026 /* Assets.xcassets */; };
 		FA729F6027C49B370044C026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA729F5E27C49B370044C026 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		FA729F5027C49B340044C026 /* Bankodemia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankodemia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA729F5327C49B340044C026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA729F5527C49B340044C026 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA729F5727C49B340044C026 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA729F5727C49B340044C026 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FA729F5C27C49B370044C026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA729F5F27C49B370044C026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA729F6127C49B370044C026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +35,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA05642427D878E6009C4AD0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA05642527D87A72009C4AD0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FA05642627D87CBA009C4AD0 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				FA05643227D87F32009C4AD0 /* Extensions */,
+				FA05642727D87CFD009C4AD0 /* Networking */,
+				FA05642527D87A72009C4AD0 /* Constants */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		FA05642727D87CFD009C4AD0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FA05642827D87D3F009C4AD0 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		FA05642927D87D4C009C4AD0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA729F5727C49B340044C026 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA05642A27D87D93009C4AD0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA05642B27D87DB4009C4AD0 /* TransactionDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TransactionDetail;
+			sourceTree = "<group>";
+		};
+		FA05642C27D87E17009C4AD0 /* TransferDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TransferDetail;
+			sourceTree = "<group>";
+		};
+		FA05642D27D87E3B009C4AD0 /* DetailList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailList;
+			sourceTree = "<group>";
+		};
+		FA05642E27D87E4D009C4AD0 /* AddReceiver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddReceiver;
+			sourceTree = "<group>";
+		};
+		FA05642F27D87E68009C4AD0 /* AddContact */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddContact;
+			sourceTree = "<group>";
+		};
+		FA05643027D87EE2009C4AD0 /* MessageProcessing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MessageProcessing;
+			sourceTree = "<group>";
+		};
+		FA05643127D87EEE009C4AD0 /* MessageAddContact */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MessageAddContact;
+			sourceTree = "<group>";
+		};
+		FA05643227D87F32009C4AD0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FA729F4727C49B340044C026 = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +163,11 @@
 		FA729F5227C49B340044C026 /* Bankodemia */ = {
 			isa = PBXGroup;
 			children = (
-				FA729F6A27C49B860044C026 /* Delegate */,
-				FA729F6927C49B800044C026 /* Model */,
-				FA729F6827C49B780044C026 /* View */,
-				FA729F6727C49B700044C026 /* Controller */,
+				FA729F6A27C49B860044C026 /* Delegates */,
+				FA05642627D87CBA009C4AD0 /* Layers */,
+				FA05642427D878E6009C4AD0 /* ViewModel */,
+				FA729F6927C49B800044C026 /* Modules */,
+				FA729F6827C49B780044C026 /* Views */,
 				FA729F5C27C49B370044C026 /* Assets.xcassets */,
 				FA729F5E27C49B370044C026 /* LaunchScreen.storyboard */,
 				FA729F6127C49B370044C026 /* Info.plist */,
@@ -65,35 +175,37 @@
 			path = Bankodemia;
 			sourceTree = "<group>";
 		};
-		FA729F6727C49B700044C026 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				FA729F5727C49B340044C026 /* ViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		FA729F6827C49B780044C026 /* View */ = {
+		FA729F6827C49B780044C026 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		FA729F6927C49B800044C026 /* Model */ = {
+		FA729F6927C49B800044C026 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				FA05643127D87EEE009C4AD0 /* MessageAddContact */,
+				FA05643027D87EE2009C4AD0 /* MessageProcessing */,
+				FA05642F27D87E68009C4AD0 /* AddContact */,
+				FA05642E27D87E4D009C4AD0 /* AddReceiver */,
+				FA05642D27D87E3B009C4AD0 /* DetailList */,
+				FA05642C27D87E17009C4AD0 /* TransferDetail */,
+				FA05642B27D87DB4009C4AD0 /* TransactionDetail */,
+				FA05642A27D87D93009C4AD0 /* Home */,
+				FA05642927D87D4C009C4AD0 /* Login */,
+				FA05642827D87D3F009C4AD0 /* SignIn */,
 			);
-			path = Model;
+			path = Modules;
 			sourceTree = "<group>";
 		};
-		FA729F6A27C49B860044C026 /* Delegate */ = {
+		FA729F6A27C49B860044C026 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
 				FA729F5327C49B340044C026 /* AppDelegate.swift */,
 				FA729F5527C49B340044C026 /* SceneDelegate.swift */,
 			);
-			path = Delegate;
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA729F5827C49B340044C026 /* ViewController.swift in Sources */,
+				FA729F5827C49B340044C026 /* LoginViewController.swift in Sources */,
 				FA729F5427C49B340044C026 /* AppDelegate.swift in Sources */,
 				FA729F5627C49B340044C026 /* SceneDelegate.swift in Sources */,
 			);
