@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E77BFEF327E00C42008A66C0 /* constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77BFEF227E00C42008A66C0 /* constraints.swift */; };
 		FA729F5427C49B340044C026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729F5327C49B340044C026 /* AppDelegate.swift */; };
 		FA729F5627C49B340044C026 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729F5527C49B340044C026 /* SceneDelegate.swift */; };
 		FA729F5827C49B340044C026 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729F5727C49B340044C026 /* LoginViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E77BFEF227E00C42008A66C0 /* constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constraints.swift; sourceTree = "<group>"; };
 		FA729F5027C49B340044C026 /* Bankodemia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankodemia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA729F5327C49B340044C026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA729F5527C49B340044C026 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E77BFEF127E00BD8008A66C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E77BFEF227E00C42008A66C0 /* constraints.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		FA05642427D878E6009C4AD0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +173,7 @@
 		FA729F5227C49B340044C026 /* Bankodemia */ = {
 			isa = PBXGroup;
 			children = (
+				E77BFEF127E00BD8008A66C0 /* Utils */,
 				FA729F6A27C49B860044C026 /* Delegates */,
 				FA05642627D87CBA009C4AD0 /* Layers */,
 				FA05642427D878E6009C4AD0 /* ViewModel */,
@@ -278,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77BFEF327E00C42008A66C0 /* constraints.swift in Sources */,
 				FA729F5827C49B340044C026 /* LoginViewController.swift in Sources */,
 				FA729F5427C49B340044C026 /* AppDelegate.swift in Sources */,
 				FA729F5627C49B340044C026 /* SceneDelegate.swift in Sources */,
