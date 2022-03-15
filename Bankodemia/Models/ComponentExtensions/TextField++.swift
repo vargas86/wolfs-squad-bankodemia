@@ -11,7 +11,7 @@ import UIKit
 extension UITextField{
     func formatTextField(activate : Bool){
         if activate == true {
-            self.textAlignment = .center
+            self.textAlignment = .left
             self.backgroundColor = .clear
             self.layer.cornerRadius = 4
             self.layer.borderColor = ConstantsCGColor.greenBlue
