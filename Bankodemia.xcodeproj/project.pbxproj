@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C51DDF5C27E01F6A0082ADC3 /* UIButton++.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51DDF5B27E01F690082ADC3 /* UIButton++.swift */; };
+		C51DDF5E27E0205E0082ADC3 /* UILabel++.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51DDF5D27E0205E0082ADC3 /* UILabel++.swift */; };
+		C51DDF6927E024F90082ADC3 /* ConstantsColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51DDF6827E024F90082ADC3 /* ConstantsColor.swift */; };
 		E77BFEF327E00C42008A66C0 /* constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77BFEF227E00C42008A66C0 /* constraints.swift */; };
 		E77BFEF727E0140F008A66C0 /* TextField++.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77BFEF627E0140F008A66C0 /* TextField++.swift */; };
 		FA729F5427C49B340044C026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA729F5327C49B340044C026 /* AppDelegate.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C51DDF5B27E01F690082ADC3 /* UIButton++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton++.swift"; sourceTree = "<group>"; };
+		C51DDF5D27E0205E0082ADC3 /* UILabel++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel++.swift"; sourceTree = "<group>"; };
+		C51DDF6827E024F90082ADC3 /* ConstantsColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsColor.swift; sourceTree = "<group>"; };
 		E77BFEF227E00C42008A66C0 /* constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constraints.swift; sourceTree = "<group>"; };
 		E77BFEF627E0140F008A66C0 /* TextField++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField++.swift"; sourceTree = "<group>"; };
 		FA729F5027C49B340044C026 /* Bankodemia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankodemia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C51DDF5F27E022220082ADC3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C51DDF6827E024F90082ADC3 /* ConstantsColor.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		E77BFEF127E00BD8008A66C0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -50,6 +64,7 @@
 		E77BFEF427E013C8008A66C0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C51DDF5F27E022220082ADC3 /* Constants */,
 				E77BFEF527E013DC008A66C0 /* ComponentExtensions */,
 			);
 			path = Models;
@@ -59,6 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				E77BFEF627E0140F008A66C0 /* TextField++.swift */,
+				C51DDF5B27E01F690082ADC3 /* UIButton++.swift */,
+				C51DDF5D27E0205E0082ADC3 /* UILabel++.swift */,
 			);
 			path = ComponentExtensions;
 			sourceTree = "<group>";
@@ -310,9 +327,12 @@
 			files = (
 				E77BFEF327E00C42008A66C0 /* constraints.swift in Sources */,
 				FA729F5827C49B340044C026 /* LoginViewController.swift in Sources */,
+				C51DDF5E27E0205E0082ADC3 /* UILabel++.swift in Sources */,
+				C51DDF6927E024F90082ADC3 /* ConstantsColor.swift in Sources */,
 				FA729F5427C49B340044C026 /* AppDelegate.swift in Sources */,
 				E77BFEF727E0140F008A66C0 /* TextField++.swift in Sources */,
 				FA729F5627C49B340044C026 /* SceneDelegate.swift in Sources */,
+				C51DDF5C27E01F6A0082ADC3 /* UIButton++.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
